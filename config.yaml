@@ -4,3 +4,4 @@ type: object
 documents:
   - query
 properties: {}
+version: 2
