@@ -1,5 +1,6 @@
 title: Clear Failed Uploads
 description: Runs through a query of documents and deletes the documents if their status is error or nofile. 
+instructions: ''
 type: object
 documents:
   - query
