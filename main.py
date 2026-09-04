@@ -7,7 +7,6 @@ class Clear(SoftTimeOutAddOn):
         for document in self.get_documents():
             if document.status == 'error' or document.status == 'nofile':
                 document.delete()
-                time.sleep(5)
  
 if __name__ == "__main__":
     Clear().main()
